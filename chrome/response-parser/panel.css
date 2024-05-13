@@ -1,0 +1,26 @@
+html {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  color: gray
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  width: 100%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+}
